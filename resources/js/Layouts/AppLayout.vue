@@ -18,6 +18,9 @@
             <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
               Dashboard
             </jet-nav-link>
+            <jet-nav-link :href="route('tasks')" :active="route().current('tasks')">
+             Tasks
+            </jet-nav-link>
             <jet-nav-link :href="route('users')" :active="route().current('users')">
               Users
             </jet-nav-link>
